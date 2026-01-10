@@ -20,19 +20,10 @@ bot = telebot.TeleBot(TOKEN)
 
 # ================= SUA FUNÇÃO DE ANÁLISE =================
 def gerar_analise_dados():
-    """
-    Aqui você coloca a lógica da sua função generate_analysis.
-    O retorno deve ser um objeto Figure do Matplotlib ou a imagem salva.
-    Vou simular um gráfico simples para o exemplo.
-    """
-    # --- SIMULAÇÃO (Substitua pelo seu código) ---
-    plt.figure(figsize=(8, 4))
-    plt.plot(['08h', '09h', '10h'], [2, 8, 5], color='red')
-    plt.title("Análise de Tentativas de Fraude (Simulação)")
-    plt.grid(True)
-    # ---------------------------------------------
-    
-    # Salva na memória RAM (Buffer) para não criar arquivo no PC
+    # ... Sua lógica de gerar gráficos aqui ...
+    # Exemplo rápido para não quebrar o código:
+    plt.figure()
+    plt.text(0.5, 0.5, "Gráfico do Supervisor", ha='center')
     buf = io.BytesIO()
     plt.savefig(buf, format='png')
     buf.seek(0)
@@ -43,102 +34,115 @@ def gerar_analise_dados():
 def eh_supervisor(mensagem):
     if mensagem.from_user.id == ID_SUPERVISOR:
         return True
-    bot.reply_to(mensagem, "⛔ Acesso Negado. Este bot é restrito.")
+    bot.reply_to(mensagem, "⛔ Acesso Negado.")
     return False
 
-# ================= COMANDOS DO BOT =================
+# ================= COMANDOS =================
 
 @bot.message_handler(commands=['start'])
 def menu(mensagem):
     if not eh_supervisor(mensagem): return
-    texto = """
-👮‍♂️ **Painel do Supervisor Ativo**
-
-O sistema de alerta automático está ligado. 📡
-
-/ocupacao - Ver lotação atual
-/analise - 📊 Gerar gráfico de dados
-    """
-    bot.reply_to(mensagem, texto)
+    bot.reply_to(mensagem, "👮‍♂️ **Painel Supervisor**\nMonitoramento de Fraude: ON ✅\nUse: /ocupacao ou /analise")
 
 @bot.message_handler(commands=['ocupacao'])
 def ver_ocupacao(mensagem):
     if not eh_supervisor(mensagem): return
     
     try:
-        resp = requests.get(f"{URL_BASE}/estado.json")
-        dados = resp.json()
-        qtd = dados.get('ocupacao_atual', 0)
-        limite = dados.get('limite_ocupacao', 10)
-        bot.reply_to(mensagem, f"👥 **Ocupação:** {qtd}/{limite}")
-    except:
-        bot.reply_to(mensagem, "Erro ao conectar.")
+        # Pega dados direto de /estado.json
+        resp = requests.get(URL_ESTADO)
+        if resp.status_code == 200:
+            dados = resp.json()
+            # O JSON retorna direto: {"ocupacao_atual": 1, ...}
+            qtd = dados.get('ocupacao_atual', 0)
+            limite = dados.get('limite_ocupacao', 10)
+            
+            bot.reply_to(mensagem, f"👥 **Ocupação Atual:** {qtd} / {limite}")
+        else:
+            bot.reply_to(mensagem, "⚠️ Erro ao ler estado no Firebase.")
+    except Exception as e:
+        bot.reply_to(mensagem, f"Erro de conexão: {e}")
 
 @bot.message_handler(commands=['analise'])
 def enviar_analise(mensagem):
     if not eh_supervisor(mensagem): return
-    
     bot.send_chat_action(mensagem.chat.id, 'upload_photo')
     try:
-        # Chama sua função
         imagem = gerar_analise_dados()
-        bot.send_photo(mensagem.chat.id, imagem, caption="📊 **Relatório de Dados Gerado**")
+        bot.send_photo(mensagem.chat.id, imagem, caption="📊 Relatório Gerado")
     except Exception as e:
-        bot.reply_to(mensagem, f"Erro ao gerar análise: {e}")
+        bot.reply_to(mensagem, f"Erro: {e}")
 
-# ================= MONITORAMENTO (THREAD) =================
+# ================= MONITORAMENTO INTELIGENTE =================
 def monitorar_fraudes():
-    """
-    Esta função roda em paralelo. Ela verifica o último evento
-    a cada 5 segundos. Se for fraude e for NOVO, avisa.
-    """
     print("📡 Monitoramento de fraudes iniciado...")
     ultimo_id_processado = None
 
+    # Sessão persistente para evitar aquele erro de DNS/Connection
+    session = requests.Session()
+    adapter = requests.adapters.HTTPAdapter(max_retries=3)
+    session.mount('https://', adapter)
+
     while True:
         try:
-            # Pega apenas o ÚLTIMO evento registrado (limitToLast=1)
-            url = f"{URL_BASE}/eventos.json?orderBy=\"$key\"&limitToLast=1"
-            resp = requests.get(url)
+            # 1. Busca apenas o ÚLTIMO evento do banco
+            resp = session.get(URL_ULTIMO_EVENTO, timeout=10)
             
             if resp.status_code == 200 and resp.json():
-                dados = resp.json()
-                # O Firebase retorna { "ID_UNICO": {dados...} }
-                id_evento = list(dados.keys())[0]
-                conteudo = dados[id_evento]
+                dados_dict = resp.json() 
+                
+                # O Firebase retorna: { "-ChaveDoEvento": { "fraudulento": true, ... } }
+                # Precisamos pegar essa chave dinâmica
+                id_evento = list(dados_dict.keys())[0]
+                conteudo = dados_dict[id_evento]
 
-                # Se é um evento novo que ainda não vimos
+                # 2. Verifica se é um evento NOVO (diferente do último que vimos)
                 if id_evento != ultimo_id_processado:
-                    # Verifica se é fraude
-                    if conteudo.get('fraudulento') == True:
-                        hora = conteudo.get('timestamp', 'Desconhecida')
-                        cartao = conteudo.get('cartao', 'N/A')
+                    
+                    # 3. VERIFICAÇÃO DE FRAUDE
+                    # Baseado no seu JSON, o campo é "fraudulento" (true/false)
+                    eh_fraude = conteudo.get('fraudulento')
+
+                    # DEBUG: Printa no terminal para você acompanhar
+                    print(f"Novo evento: {id_evento} | Fraude: {eh_fraude}")
+
+                    if eh_fraude == True:
+                        cartao = conteudo.get('cartao', 'Desconhecido')
+                        hora = conteudo.get('timestamp', 'Agora')
                         
                         alerta = f"""
-🚨 **ALERTA DE SEGURANÇA** 🚨
+🚨 **ALERTA DE FRAUDE DETECTADA** 🚨
 
-Foi detectada uma tentativa de acesso não autorizado!
-💳 **Cartão:** {cartao}
-⏰ **Horário:** {hora}
+⛔ **Cartão Bloqueado Tentou Acesso!**
+🆔 ID: `{cartao}`
+⏰ Hora: {hora}
                         """
-                        # Envia mensagem proativa (sem o usuário pedir)
-                        bot.send_message(ID_SUPERVISOR, alerta)
+                        try:
+                            bot.send_message(ID_SUPERVISOR, alerta, parse_mode="Markdown")
+                        except:
+                            print("Erro ao enviar msg Telegram")
                     
-                    # Atualiza o ID para não repetir o alerta do mesmo evento
+                    # Atualiza o ID para não processar o mesmo evento de novo
                     ultimo_id_processado = id_evento
             
         except Exception as e:
-            print(f"Erro no monitoramento: {e}")
+            print(f"♻️ Reconectando monitoramento... ({e})")
+            time.sleep(5)
 
         time.sleep(3) # Verifica a cada 3 segundos
 
 # ================= EXECUÇÃO =================
 if __name__ == "__main__":
-    # 1. Inicia o Monitoramento em outra Thread
+    # Inicia Monitoramento
     t = threading.Thread(target=monitorar_fraudes)
-    t.daemon = True # Morre se o programa principal fechar
+    t.daemon = True
     t.start()
 
-    # 2. Inicia o Bot
-    print("👮‍♂️ Bot Supervisor rodando...")
-    bot.polling()
+    # Inicia Bot com reconexão automática
+    print("👮‍♂️ Bot Supervisor Rodando...")
+    while True:
+        try:
+            bot.infinity_polling(timeout=10, long_polling_timeout=5)
+        except:
+            time.sleep(5)
+
