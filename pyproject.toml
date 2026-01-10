@@ -1,0 +1,19 @@
+[project]
+name = "iot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "feelipensousa",email = "felipenogueirafebob11@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytelegrambotapi (>=4.29.1,<5.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
