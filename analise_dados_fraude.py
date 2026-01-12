@@ -144,5 +144,5 @@ def plotar_analise():
     plt.xlabel("Classificação")
     plt.ylabel("Quantidade de Eventos")
     plt.tight_layout()
-    plt.show()
+
 

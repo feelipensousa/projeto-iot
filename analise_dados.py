@@ -57,4 +57,3 @@ def analise_dados():
     plt.xlabel("Data")
     plt.ylabel("Acessos")
     plt.legend()
-    plt.show()
