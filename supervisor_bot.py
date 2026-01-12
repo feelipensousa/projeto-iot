@@ -5,22 +5,22 @@ import threading
 import io
 import sys
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
 
-# ================= IMPORTS DAS SUAS FUNÇÕES =================
-# Certifique-se que os arquivos analise_dados.py e analise_dados_fraude.py
-# estão na mesma pasta deste script.
 from analise_dados import analise_dados
 from analise_dados_fraude import plotar_analise
 
 # ================= CONFIGURAÇÕES =================
-TOKEN = "8465625783:AAEAQm0N9cZnbumMpO6-1HSkJT6CjlwKyiw"
+load_dotenv()
+TOKEN = os.getenv("bot_supervisor")
 ID_SUPERVISOR = 2056650757 
 
 URL_BASE = "https://controle-de-acesso-iot-default-rtdb.firebaseio.com"
 URL_ESTADO = f"{URL_BASE}/estado.json"
 URL_ULTIMO_EVENTO = f"{URL_BASE}/eventos.json?orderBy=\"$key\"&limitToLast=1"
 
-# Inicializa o Bot
+
 bot = telebot.TeleBot(TOKEN)
 
 # ================= FUNÇÕES AUXILIARES DE GRÁFICOS =================
@@ -31,23 +31,20 @@ def gerar_grafico_ocupacao():
     Retorna: (buffer_imagem, texto_metricas)
     """
     plt.close('all') 
-    plt.figure(figsize=(10, 6)) # Cria o canvas
+    plt.figure(figsize=(10, 6)) # Cria o gráfico
     
-    # --- Captura de Texto (Prints) ---
     old_stdout = sys.stdout
     result_capture = io.StringIO()
     sys.stdout = result_capture
     
     try:
-        analise_dados() # Sua função de Machine Learning
+        analise_dados() 
     except Exception as e:
         print(f"Erro na analise_dados: {e}")
 
-    # Para a captura
     sys.stdout = old_stdout
     texto_metricas = result_capture.getvalue()
 
-    # --- Salva Imagem ---
     buf = io.BytesIO()
     plt.savefig(buf, format='png', bbox_inches='tight')
     buf.seek(0)
@@ -61,14 +58,13 @@ def gerar_grafico_fraude():
     Retorna: buffer_imagem
     """
     plt.close('all')
-    plt.figure(figsize=(10, 6)) # Cria o canvas
+    plt.figure(figsize=(10, 6)) # Cria o gráfico
     
     try:
-        plotar_analise() # Sua função de gráfico de fraudes
+        plotar_analise()
     except Exception as e:
-        print(f"Erro na plotar_analise: {e}") # Printa no terminal do PC se der erro
+        print(f"Erro na plotar_analise: {e}")
 
-    # --- Salva Imagem ---
     buf = io.BytesIO()
     plt.savefig(buf, format='png', bbox_inches='tight')
     buf.seek(0)
@@ -84,7 +80,6 @@ def eh_supervisor(mensagem):
     return False
 
 # ================= COMANDOS DO CHAT =================
-
 @bot.message_handler(commands=['start'])
 def menu(mensagem):
     if not eh_supervisor(mensagem): return
@@ -118,7 +113,7 @@ def ver_ocupacao(mensagem):
     except Exception as e:
         bot.reply_to(mensagem, f"Erro de conexão: {e}")
 
-# --- COMANDO 1: OCUPAÇÃO (Gráfico + Texto) ---
+# --- COMANDO 1: OCUPAÇÃO ---
 @bot.message_handler(commands=['analise_ocupacao'])
 def enviar_analise_ocupacao(mensagem):
     if not eh_supervisor(mensagem): return
@@ -127,7 +122,6 @@ def enviar_analise_ocupacao(mensagem):
     try:
         imagem, texto_metricas = gerar_grafico_ocupacao()
         
-        # Formata o texto capturado como código para ficar alinhado
         legenda = f"📈 **Predição de Ocupação**\n\n```\n{texto_metricas}```"
         
         bot.send_photo(
@@ -139,7 +133,7 @@ def enviar_analise_ocupacao(mensagem):
     except Exception as e:
         bot.reply_to(mensagem, f"Erro ao gerar análise de ocupação: {e}")
 
-# --- COMANDO 2: FRAUDE (Apenas Gráfico) ---
+# --- COMANDO 2: FRAUDE ---
 @bot.message_handler(commands=['analise_fraude'])
 def enviar_analise_fraude(mensagem):
     if not eh_supervisor(mensagem): return
@@ -157,7 +151,7 @@ def enviar_analise_fraude(mensagem):
     except Exception as e:
         bot.reply_to(mensagem, f"Erro ao gerar análise de fraude: {e}")
 
-# ================= MONITORAMENTO EM SEGUNDO PLANO =================
+# ================= MONITORAMENTO DE FRAUDE =================
 def monitorar_fraudes():
     print("📡 Thread de Monitoramento Iniciada...")
     ultimo_id_processado = None
@@ -202,7 +196,6 @@ Foi detectada uma tentativa de acesso não autorizado!
 
         time.sleep(3)
 
-# ================= EXECUÇÃO PRINCIPAL =================
 if __name__ == "__main__":
     t = threading.Thread(target=monitorar_fraudes)
     t.daemon = True
