@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import os
 
-from analise_dados import analise_dados
-from analise_dados_fraude import plotar_analise
+from funcoes_auxiliares.analise_dados import analise_dados
+from funcoes_auxiliares.analise_dados_fraude import plotar_analise
 
 # ================= CONFIGURAÇÕES =================
 load_dotenv()
