@@ -10,7 +10,8 @@ requires-python = ">=3.11"
 dependencies = [
     "pytelegrambotapi (>=4.29.1,<5.0.0)",
     "requests (>=2.32.5,<3.0.0)",
-    "matplotlib (>=3.10.8,<4.0.0)"
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "pandas (>=2.3.3,<3.0.0)"
 ]
 
 

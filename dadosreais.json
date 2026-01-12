@@ -1,0 +1,3634 @@
+{
+  "f60e35d5-51a9-4d59-9f13-a1439980743c": {
+    "timestamp": "2025-12-17T15:00:57",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "77f1bcdf-593a-4554-9c60-810e5fdb057d": {
+    "timestamp": "2025-12-17T16:41:14",
+    "cartao": "92F5D421",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bcaa15be-63b6-4d34-a3b2-f084e2a7d90a": {
+    "timestamp": "2025-12-17T16:17:59",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "56de3109-3c25-45ab-a997-df5aebde94ac": {
+    "timestamp": "2025-12-17T15:00:11",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e402423f-ed76-4786-89d8-4aa7076f279f": {
+    "timestamp": "2025-12-17T17:10:38",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a6dd51bc-5170-45d8-918d-557fdc2163b6": {
+    "timestamp": "2025-12-17T14:25:19",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "407481b7-348e-48f5-814e-a57d3c70f8d7": {
+    "timestamp": "2025-12-17T16:44:51",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "cf10b8d6-1628-4e4c-b09a-0f2451b55ea9": {
+    "timestamp": "2025-12-17T15:43:21",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c727d59a-e8a8-4574-854d-2ad88493063a": {
+    "timestamp": "2025-12-17T17:46:28",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "36ecc967-fcdb-45eb-b742-2dd035ef7e08": {
+    "timestamp": "2025-12-17T17:12:23",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2989c43b-4bb5-4922-bdb4-2ac0028a68ba": {
+    "timestamp": "2025-12-17T17:31:05",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "75fcff00-2a49-4af7-a6b4-bf93667be7a0": {
+    "timestamp": "2025-12-17T15:43:47",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "dca4ce87-8b24-4104-aff1-ec54fdbc2b3b": {
+    "timestamp": "2025-12-17T15:41:05",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "95a9aeed-d1b9-4d7f-b26e-a59f59062243": {
+    "timestamp": "2025-12-17T16:46:20",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d629b272-e079-455e-bf83-d232c43102e2": {
+    "timestamp": "2025-12-17T15:13:42",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "741cdfca-ad08-4689-a1aa-3d9c1e898750": {
+    "timestamp": "2025-12-17T17:44:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c4e98785-b5af-40b0-8c2c-402c1bc9cb0c": {
+    "timestamp": "2025-12-17T16:34:52",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2c064a4b-eedb-44b4-84f5-4a5d6b7fe1f7": {
+    "timestamp": "2025-12-17T14:39:00",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "d08855ae-e57e-4be8-a264-edee591c937e": {
+    "timestamp": "2025-12-17T17:23:59",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "696de635-28f4-443c-85e0-442390bd3147": {
+    "timestamp": "2025-12-17T16:19:08",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "24ca753f-181b-4cc3-b45d-96d2f71ce929": {
+    "timestamp": "2025-12-17T17:55:08",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "9538803a-77d3-4802-aa47-782d19d0c951": {
+    "timestamp": "2025-12-17T17:36:17",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "7c540f8e-1d94-4aa7-9b4e-1ea9864362ff": {
+    "timestamp": "2025-12-17T16:42:43",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a56dcd63-313f-41fe-8e47-732fe172be45": {
+    "timestamp": "2025-12-17T17:06:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2a8a5c9a-5325-4bc9-9e22-43330b2ef9b8": {
+    "timestamp": "2025-12-17T14:43:11",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "150f75f6-4839-44be-b773-9b16ff3b6fc2": {
+    "timestamp": "2025-12-17T16:16:41",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "68d824be-37a2-492b-b55c-5d61a20ebbba": {
+    "timestamp": "2025-12-17T17:49:49",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a37ab25a-3fd6-47e5-a150-2229cd714c09": {
+    "timestamp": "2025-12-17T16:43:33",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "45f456a3-32da-4fc6-9a6b-0fb0edc39c14": {
+    "timestamp": "2025-12-17T15:05:23",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "570028a6-4133-49ec-ab13-e21af362d3f8": {
+    "timestamp": "2025-12-17T14:23:23",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "abe5ba01-ef7d-46b7-a499-1edf6860f39c": {
+    "timestamp": "2025-12-17T14:35:03",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "145037bd-41a8-47e4-ab46-5a27becf774b": {
+    "timestamp": "2025-12-17T14:57:50",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bc179891-8bc6-4c65-bce6-db386a9c0ef7": {
+    "timestamp": "2025-12-17T15:59:37",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8a7bdff4-3b20-42e9-b6ee-e32ab6ba9e33": {
+    "timestamp": "2025-12-17T16:40:38",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "663e893f-5e3b-470b-b3c5-d5293903f0f5": {
+    "timestamp": "2025-12-17T15:02:30",
+    "cartao": "92F5D421",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "4cea2d10-136d-4f7d-a6f8-3a2252ae5a75": {
+    "timestamp": "2025-12-18T16:40:06",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "09674dc0-59f4-462a-8e62-b2c9dccf49b1": {
+    "timestamp": "2025-12-18T16:33:01",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "126ccaab-af8c-47bb-9ed4-ff69a56580cc": {
+    "timestamp": "2025-12-18T16:28:10",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "aa314f10-1e39-4c9f-9a37-99f6d69ed261": {
+    "timestamp": "2025-12-18T16:43:22",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c31922de-b200-4605-81fe-051ce145c74a": {
+    "timestamp": "2025-12-18T16:03:16",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5ebc491f-25ec-4489-b253-d3dfe824d68b": {
+    "timestamp": "2025-12-18T16:21:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "134a06dd-61d3-4f64-973b-20ee2863066d": {
+    "timestamp": "2025-12-18T16:58:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d2b181a0-9a16-4497-b9a1-41925d2b6a6c": {
+    "timestamp": "2025-12-18T16:01:54",
+    "cartao": "92F5D421",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8eabb0ae-dbec-4f20-94a6-bc6ef5a67b7a": {
+    "timestamp": "2025-12-18T16:27:16",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d94163fd-cb52-46ce-beda-585652de89cb": {
+    "timestamp": "2025-12-18T16:17:28",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8088811d-4bed-45aa-a3ae-aa6304217a19": {
+    "timestamp": "2025-12-18T16:31:12",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "5b67d93b-d701-46f5-8cf1-a6e82c4beef1": {
+    "timestamp": "2025-12-18T17:10:52",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6683720a-291b-438f-a562-5908904f20aa": {
+    "timestamp": "2025-12-18T16:37:49",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ff17f006-8b13-46d0-b9ae-e1bcdc9b902a": {
+    "timestamp": "2025-12-18T17:03:39",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "75bf8d03-f41b-49ab-93a9-78495b8800d4": {
+    "timestamp": "2025-12-18T16:20:22",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "942933db-fe3f-4f69-a46c-c81a1c08be63": {
+    "timestamp": "2025-12-18T16:11:22",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a0d1a1af-3e04-4cf7-804e-c2b6916eec6c": {
+    "timestamp": "2025-12-18T17:14:41",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e3280566-f4d9-4862-abce-7c6ad8bf9781": {
+    "timestamp": "2025-12-18T16:37:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5917daec-30b2-41d5-99e6-9cefaa0c4879": {
+    "timestamp": "2025-12-18T16:57:25",
+    "cartao": "92F5D421",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "04939016-80d8-414a-979c-397b0d1a1170": {
+    "timestamp": "2025-12-18T16:57:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b0ec6bb5-ec6a-466d-bf7c-66b87858fe4c": {
+    "timestamp": "2025-12-18T17:04:04",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "a460c8ff-b73e-4c74-a3d5-3dda30ce23f7": {
+    "timestamp": "2025-12-18T16:45:27",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a3b01814-f14c-43f8-96f1-4e08d4c42d38": {
+    "timestamp": "2025-12-18T17:18:30",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b1b36d77-71aa-47ac-96c4-3a7d0acd7d30": {
+    "timestamp": "2025-12-19T11:42:47",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "fd55db55-8a08-4d38-961e-48048e8557d7": {
+    "timestamp": "2025-12-19T08:57:22",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "393c93b6-0770-4df0-b103-c15695feef1d": {
+    "timestamp": "2025-12-19T16:36:00",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6b1ab905-dd0e-4e32-8965-f66513f9c5fd": {
+    "timestamp": "2025-12-19T10:36:12",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2be1e724-a7f0-499d-abae-0b21491e866a": {
+    "timestamp": "2025-12-19T10:36:58",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a2e10d0c-f5a9-4cb6-9cb5-9ea7adbe24ba": {
+    "timestamp": "2025-12-19T16:43:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "db3d24a7-dc25-470d-8347-9386d4d9fec7": {
+    "timestamp": "2025-12-19T10:11:58",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d38c910d-ba4c-440a-9185-c403f49fad26": {
+    "timestamp": "2025-12-19T15:44:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "68c1ff87-38ea-4da7-b824-68231e8de215": {
+    "timestamp": "2025-12-19T15:55:40",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e8ee744a-d833-4e35-850a-b02d6d0b591f": {
+    "timestamp": "2025-12-19T16:51:44",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "966d4cdd-2b75-40dd-87ed-60dfc4b9b541": {
+    "timestamp": "2025-12-19T11:43:41",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5b4b4c6f-7fd8-405f-b385-33c09cfb5653": {
+    "timestamp": "2025-12-19T17:13:49",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "9a6928d5-3a45-4e11-bd1f-84d094b6a86a": {
+    "timestamp": "2025-12-19T08:55:51",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "99204fb4-a5de-44f7-b93e-f144597de821": {
+    "timestamp": "2025-12-19T15:57:22",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "7d3e445d-2794-45bf-b5a2-fdd12659a4d0": {
+    "timestamp": "2025-12-19T17:19:01",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "632113f3-4c3e-4983-ada5-c1206410323b": {
+    "timestamp": "2025-12-19T16:05:02",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "74a8e0a7-bf4c-4ed4-b331-aaacbec1caaf": {
+    "timestamp": "2025-12-19T16:59:46",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "077751cc-03d7-46e6-8455-1e35cfe6f984": {
+    "timestamp": "2025-12-19T10:21:32",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "0b97eb39-1500-45a1-aabf-e8eba6c13cd1": {
+    "timestamp": "2025-12-19T16:14:11",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "d4793b7c-8887-4bf4-807f-2d244d67b61a": {
+    "timestamp": "2025-12-19T16:45:43",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "530eec08-7c5a-4a37-9982-1a22b1ccf257": {
+    "timestamp": "2025-12-19T09:22:27",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "28a79539-7ac5-4662-87d7-f550050ede93": {
+    "timestamp": "2025-12-19T16:52:04",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "eef6733b-85d9-4767-964c-4264183194ff": {
+    "timestamp": "2025-12-19T16:36:14",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0241021a-54bf-4b7f-bb93-92ba26dc5d22": {
+    "timestamp": "2025-12-19T16:42:41",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5a998f9b-3acf-4ad0-aec1-dfb5cc8ec4ad": {
+    "timestamp": "2025-12-19T10:31:04",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7b6566f3-a120-4a51-a74e-39301b1000be": {
+    "timestamp": "2025-12-19T15:55:41",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e0ed95f5-0280-42e5-8346-af5b660edc46": {
+    "timestamp": "2025-12-19T16:27:19",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8f37cc02-79c5-456b-99be-2954ce56d3fd": {
+    "timestamp": "2025-12-19T10:42:54",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "50b272cb-5b32-4d93-82ff-0ecab5c52b9a": {
+    "timestamp": "2025-12-19T15:39:45",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "74b3215c-7f95-4630-bde8-e14ea70466f7": {
+    "timestamp": "2025-12-19T07:49:40",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "eb192a52-637d-41a8-bf89-626a57bd237f": {
+    "timestamp": "2025-12-19T16:23:35",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "dcc0bf7e-f0c2-4cc7-9079-ef8af039f44b": {
+    "timestamp": "2025-12-19T08:23:17",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "eefeac0e-0d59-42b5-ab41-d7ba95be7bf6": {
+    "timestamp": "2025-12-19T15:56:52",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "31a9c43a-50d5-4ba7-92dc-6146b8d355a5": {
+    "timestamp": "2025-12-19T10:15:12",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b2c387ca-333b-4406-9b59-caae8d057e83": {
+    "timestamp": "2025-12-19T16:58:08",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9dc85710-9a8f-4e13-a583-c6b078b59502": {
+    "timestamp": "2025-12-19T16:50:38",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a1a92e39-7eae-40f8-9155-2349f5cde4ad": {
+    "timestamp": "2025-12-19T16:28:26",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "08c484ad-f47f-4c30-8cfa-2278c6519b8c": {
+    "timestamp": "2025-12-19T16:52:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1d751f0b-fd3c-4a44-b410-aa93d7cb8133": {
+    "timestamp": "2025-12-19T08:57:11",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "32359256-c115-446d-a3f9-4d2f04184609": {
+    "timestamp": "2025-12-19T08:24:11",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "cfa70fab-46a0-4092-b1bc-4c46ce540bfd": {
+    "timestamp": "2025-12-19T09:36:17",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "fed5d7bc-4b3e-4ac8-a9ab-7bf12fafc383": {
+    "timestamp": "2025-12-19T11:30:26",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "99970029-c61b-43de-b644-3992775f4ef0": {
+    "timestamp": "2025-12-20T09:43:52",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a625c2fc-f66d-40ef-b5ad-35818286df25": {
+    "timestamp": "2025-12-20T09:21:32",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "141f75f5-bbbd-43c3-a901-0828f9c4c5c0": {
+    "timestamp": "2025-12-20T10:13:19",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bebd9faa-f8c0-4f73-96e2-663572810ca1": {
+    "timestamp": "2025-12-20T09:50:24",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b31bfb77-1484-4a04-abd6-bec6fd62652e": {
+    "timestamp": "2025-12-20T09:47:35",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f17159f7-19b1-4c73-b57f-42d27d322390": {
+    "timestamp": "2025-12-20T08:37:03",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "fbeee752-b6b0-436c-b3e9-57d77195d0df": {
+    "timestamp": "2025-12-20T09:29:23",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c3247848-2344-4cdf-946b-a9e69c33efe8": {
+    "timestamp": "2025-12-20T09:55:06",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4da1cffe-18a7-4122-9cb2-65d5d67a31bc": {
+    "timestamp": "2025-12-20T09:35:33",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "37cc05af-c9f6-4f1c-acee-c8ed8f250dea": {
+    "timestamp": "2025-12-20T08:08:28",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "dbf575aa-0f9b-4f9f-8e25-71ded44a8d80": {
+    "timestamp": "2025-12-20T08:34:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c65d2c65-cdd2-4979-9f41-853988a000be": {
+    "timestamp": "2025-12-20T09:09:58",
+    "cartao": "73C0F71B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b33faea9-dcde-4330-92c7-a315c59fe58f": {
+    "timestamp": "2025-12-20T08:44:43",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "22d291fd-e6ae-474a-a763-1aaa116c660f": {
+    "timestamp": "2025-12-20T09:25:11",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "9f7bdc9a-5a4f-481c-93de-3656419bc74e": {
+    "timestamp": "2025-12-20T08:54:09",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d81ca7ee-253a-4f60-a4a0-1b0ca09fc966": {
+    "timestamp": "2025-12-20T09:22:21",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e0d1f57d-6b24-41dd-9eb0-cb995058a2f0": {
+    "timestamp": "2025-12-20T10:25:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c22343bb-16c9-44c7-9577-3e1e8564b6ab": {
+    "timestamp": "2025-12-20T08:03:27",
+    "cartao": "92F5D421",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ae17463c-060a-41ad-8e6b-e2b26e403463": {
+    "timestamp": "2025-12-20T09:38:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "97850fb2-a508-44ab-9038-8a7a81e7ed0a": {
+    "timestamp": "2025-12-20T10:26:57",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "d521f5bf-19f8-4e80-99ad-345f351176dd": {
+    "timestamp": "2025-12-22T14:59:00",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5d835d0f-f720-40cf-9313-3b5ba23127a7": {
+    "timestamp": "2025-12-22T09:49:53",
+    "cartao": "C2514920",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "feda9fe8-5a66-4d22-a6c7-61a8dd9fd6ca": {
+    "timestamp": "2025-12-22T15:00:55",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f9ebdf79-b00c-44ec-8717-cd589bb08583": {
+    "timestamp": "2025-12-22T09:56:08",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8224a340-9794-43a4-be0d-a6d4c75a9cf9": {
+    "timestamp": "2025-12-22T14:53:10",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "52fc2ad4-c446-4b02-b857-b00752bb8ba6": {
+    "timestamp": "2025-12-22T08:06:22",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ea83391e-f8bc-43de-a1e3-a532a7571b9e": {
+    "timestamp": "2025-12-22T10:51:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "86751609-0520-4c83-9224-1258829571b6": {
+    "timestamp": "2025-12-22T14:17:21",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3a8ddd6e-cd80-4673-99de-286b1b1dedea": {
+    "timestamp": "2025-12-22T09:06:36",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "eb49b762-582f-481b-996c-aebbd88e54e7": {
+    "timestamp": "2025-12-22T15:13:05",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2e01e38c-e4be-4b28-a4fa-19595e9d2d44": {
+    "timestamp": "2025-12-22T14:56:51",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9ad8a297-0981-4765-89f1-a4d28d251036": {
+    "timestamp": "2025-12-22T09:09:09",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1189cee1-93d3-4a7d-9264-ad3d5cc601e3": {
+    "timestamp": "2025-12-22T08:35:18",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e608df9c-f4aa-4ab4-95af-2adcd3a1b694": {
+    "timestamp": "2025-12-22T14:28:43",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d0ac9d52-be48-4752-b91c-13305927de21": {
+    "timestamp": "2025-12-22T09:05:32",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5579dfe5-bdcf-470f-a209-86beb8ead637": {
+    "timestamp": "2025-12-22T14:21:12",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d34eced4-7a3e-40ab-a36f-db73b921ce95": {
+    "timestamp": "2025-12-22T10:37:10",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5ea4d3e5-7f0a-4863-ba9f-7aedef21c24b": {
+    "timestamp": "2025-12-22T10:19:45",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "c8c4f29f-6b8f-4b75-89e0-d0e993d2e5c9": {
+    "timestamp": "2025-12-22T15:01:31",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1d366c6b-fded-4bf3-8184-b6faaf110bb3": {
+    "timestamp": "2025-12-22T14:30:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3c576e9d-d925-4683-8ef6-03eef26b9294": {
+    "timestamp": "2025-12-22T08:24:25",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "dd699a0c-4eac-4138-8fbe-ae4e81ed4a85": {
+    "timestamp": "2025-12-22T08:50:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "17d66956-741c-4f26-b1e4-2821685ee06d": {
+    "timestamp": "2025-12-22T10:05:41",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f6941e11-efd0-4a8c-8916-81866e674fd9": {
+    "timestamp": "2025-12-22T15:35:21",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f7fd07e3-a23a-453b-a3ca-5d022f8f83d2": {
+    "timestamp": "2025-12-22T10:29:28",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f6bd37c0-6d90-4b6f-bd6c-16a2b8b32a74": {
+    "timestamp": "2025-12-22T08:55:15",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "352f3ab8-1ea6-49f5-852a-5f5c820f6086": {
+    "timestamp": "2025-12-22T08:25:44",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "eeee4ed5-f20c-4166-bbb2-368359abc4fb": {
+    "timestamp": "2025-12-22T14:54:45",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f93ad34f-05e1-4f25-a052-1ee88e84bd08": {
+    "timestamp": "2025-12-22T15:50:58",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "86e67d37-30ba-4ef0-a763-eea042f1a0ea": {
+    "timestamp": "2025-12-22T08:55:14",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "b71ed5f7-e9c7-4a1c-95ac-1d24de9c937c": {
+    "timestamp": "2025-12-22T09:39:05",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "89839820-cc12-42de-94e0-2b256d6ff538": {
+    "timestamp": "2025-12-22T08:55:32",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ba9a977e-0352-43c0-8de7-3ba96ec073cf": {
+    "timestamp": "2025-12-22T09:06:59",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "337393b4-e4db-47ce-8384-fc4ce49cccbd": {
+    "timestamp": "2025-12-22T15:14:57",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "cd71955a-e070-411c-976d-2a879611fd44": {
+    "timestamp": "2025-12-22T14:52:10",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9ea5edd5-6037-4556-9065-29542fa3e197": {
+    "timestamp": "2025-12-22T09:40:58",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "69d77dbc-8a46-4a3c-90c9-a2cc121dd103": {
+    "timestamp": "2025-12-22T08:45:30",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d21c69ff-c059-418c-884c-b5fd1fc72a6d": {
+    "timestamp": "2025-12-22T15:33:40",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "11e6dfb2-88df-4068-93d1-93dcc0931cd3": {
+    "timestamp": "2025-12-26T10:18:42",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9fdd7da7-9b14-489e-88bc-8d444f7a5494": {
+    "timestamp": "2025-12-26T10:50:20",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "276f8e5d-9af0-4989-8f39-d8356366ea8b": {
+    "timestamp": "2025-12-26T09:48:30",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5b9cfe42-c6da-47f5-8ff3-18e3e8130d0c": {
+    "timestamp": "2025-12-26T09:27:03",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8c1f1ef1-962b-41e4-8b9d-26af137e08de": {
+    "timestamp": "2025-12-26T10:27:12",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "978c1759-e14c-46cf-8bd3-4564210c659f": {
+    "timestamp": "2025-12-26T09:25:16",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f095b2b3-530c-4f78-acfb-b4d5bbc2121a": {
+    "timestamp": "2025-12-26T10:56:35",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c9564380-1184-4b07-99f2-1e6d09558450": {
+    "timestamp": "2025-12-26T10:47:01",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "483a0e1c-1e6e-45dd-b86c-58ae0ec9de3c": {
+    "timestamp": "2025-12-26T09:09:55",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e5f45872-01cf-49ab-8de1-695bef206981": {
+    "timestamp": "2025-12-26T08:30:09",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d76b60ec-0a00-4b26-ba7d-6dea5384dcaa": {
+    "timestamp": "2025-12-26T08:40:14",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "d14723ef-b27c-4c88-b514-a302131201ff": {
+    "timestamp": "2025-12-26T08:22:27",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3df03766-6a6b-4cad-b01f-1f921fc243e6": {
+    "timestamp": "2025-12-26T08:29:04",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "263d9d62-9702-4f0d-af74-541ed6a74eda": {
+    "timestamp": "2025-12-26T10:15:57",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f0952ccd-b426-4aaa-bb0f-643d2983f532": {
+    "timestamp": "2025-12-26T09:03:33",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2324b951-b51a-432c-9b61-d96beec97d49": {
+    "timestamp": "2025-12-26T10:40:40",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "90f7e09e-ae46-4e41-9a6d-972de2ed4810": {
+    "timestamp": "2025-12-26T09:29:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "886e287a-f7bf-4f48-87ed-4364a134e603": {
+    "timestamp": "2025-12-26T10:37:16",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "317b6646-66af-4163-a61d-0ac45fc8b292": {
+    "timestamp": "2025-12-26T09:31:14",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "56439dda-42dd-4a66-b6a4-cb1ba430eb67": {
+    "timestamp": "2025-12-26T10:01:20",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7d7ad337-f9a6-41a1-b457-808a44cfd0c3": {
+    "timestamp": "2025-12-26T10:33:08",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "fdfa1b8d-9906-427a-83d9-9ef26ad6de4a": {
+    "timestamp": "2025-12-26T09:23:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a02e86de-59b2-4422-b2bc-ffc8f31b90d1": {
+    "timestamp": "2025-12-26T10:58:13",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bc8aa5ea-be65-4e00-a995-47276846bea4": {
+    "timestamp": "2025-12-26T10:14:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7c4e4096-4512-4c16-80c3-6b441c47a3cd": {
+    "timestamp": "2025-12-26T10:20:37",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "cc3c9f11-f5ff-4c10-8dda-3937620450ae": {
+    "timestamp": "2025-12-26T09:48:57",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "2f986d11-3ff2-4199-b51b-26dfa64762dc": {
+    "timestamp": "2025-12-26T10:05:12",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c655c3a1-eabd-44b0-879b-0652cec76c95": {
+    "timestamp": "2025-12-27T16:20:43",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "37e2c93b-15d9-40fe-9a6b-1681ad16b8dd": {
+    "timestamp": "2025-12-27T15:35:14",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "91d11aa4-baa2-43f4-9d8d-80153d6a9591": {
+    "timestamp": "2025-12-27T09:02:06",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "aaabf298-9cf1-4008-bdf2-a6b75134e5f1": {
+    "timestamp": "2025-12-27T09:56:30",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "0137debb-3e6e-4325-acad-bd1efde4732b": {
+    "timestamp": "2025-12-27T09:59:09",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "6ef32a71-2a8c-4a13-88b2-45c16a58398f": {
+    "timestamp": "2025-12-27T09:26:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "760e5e8c-9f25-42f1-85a9-313abca3ec93": {
+    "timestamp": "2025-12-27T15:11:52",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "22b0492d-b72d-47eb-9ddd-47b25cc0f4c6": {
+    "timestamp": "2025-12-27T08:44:25",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "4c08e694-bdf3-49f2-b377-2a91a297610c": {
+    "timestamp": "2025-12-27T16:16:36",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "243a66da-db62-4ca0-ad04-cd5c847086f6": {
+    "timestamp": "2025-12-27T09:01:24",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "085ed02b-9b6f-4f56-ac0a-c9f7b47ea132": {
+    "timestamp": "2025-12-27T16:23:02",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "233e610d-4912-4785-b023-9cf00bd65425": {
+    "timestamp": "2025-12-27T16:24:30",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e5247c22-4da5-4d47-bd5d-b8c381955711": {
+    "timestamp": "2025-12-27T16:12:13",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "f8956342-0274-4ff3-b54e-ba2876457486": {
+    "timestamp": "2025-12-27T15:54:22",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "ab273f18-49da-49aa-a74b-1cdd73436ef2": {
+    "timestamp": "2025-12-27T15:06:33",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "aa0da082-b955-42da-8e6f-aeab8a9a3103": {
+    "timestamp": "2025-12-27T16:27:28",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "22136165-0f29-442e-967f-aa24e8512447": {
+    "timestamp": "2025-12-27T15:29:28",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "8eed753e-bd0e-4b53-82c2-3966e9eca9f1": {
+    "timestamp": "2025-12-27T10:43:35",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "cc79b766-804c-4cf4-ba5f-1968174b9a15": {
+    "timestamp": "2025-12-27T10:43:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "35932e51-0e44-49a8-91b1-4d1b29970203": {
+    "timestamp": "2025-12-27T16:24:32",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "db029293-cd45-4896-b441-733ef264f244": {
+    "timestamp": "2025-12-27T09:22:21",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "572cd8e8-f7e6-4264-8c45-51438ceb9f71": {
+    "timestamp": "2025-12-27T16:31:59",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "233cbbf3-0657-4358-aaee-803d70fdedd7": {
+    "timestamp": "2025-12-27T16:34:03",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "39a2bc20-c242-47c5-b5c2-8e00122e73d6": {
+    "timestamp": "2025-12-27T16:04:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f0634bcd-04ff-4528-8fe5-56b334d96543": {
+    "timestamp": "2025-12-27T16:42:06",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "de00bb69-4c68-4e0c-aac4-40de8db97c81": {
+    "timestamp": "2025-12-27T10:05:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a1914a8b-2097-46d6-b64c-d34c73ab7be9": {
+    "timestamp": "2025-12-27T16:47:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a6ad347e-82fd-4b4d-8237-3b2fee3e6814": {
+    "timestamp": "2025-12-27T14:53:54",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "63b3bc68-bdcc-406e-910f-b4fb8e3094fc": {
+    "timestamp": "2025-12-27T15:42:19",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "22a5f293-7e09-44aa-9e99-cc1daf7ab596": {
+    "timestamp": "2025-12-27T15:06:47",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ebbea297-5868-485b-ac92-b93e43c6c1e4": {
+    "timestamp": "2025-12-27T16:56:57",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "db213645-e9b9-4645-8d45-eea4cd2ef2ad": {
+    "timestamp": "2025-12-27T16:56:09",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9c499d02-a8bd-4313-a591-91cd458150dc": {
+    "timestamp": "2025-12-27T08:10:22",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3004a500-ca2a-48e6-9c11-5d10cc290313": {
+    "timestamp": "2025-12-27T08:24:32",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3625ea58-7d89-451e-8426-8a48a124bfe3": {
+    "timestamp": "2025-12-27T15:53:56",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "be5bf2bc-c788-41d8-9860-734ca0c86cdb": {
+    "timestamp": "2025-12-27T16:12:11",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "05ef4053-46b7-41b8-bbd0-60741bd18ea3": {
+    "timestamp": "2025-12-27T11:45:39",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0aa152f9-570a-4b6c-940b-1c3e47c30127": {
+    "timestamp": "2025-12-27T11:06:29",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c6b80ace-2ef3-4c51-947f-e97313964adc": {
+    "timestamp": "2025-12-27T11:51:35",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c432e4df-ea37-40c5-b7d2-a9f2471e6c55": {
+    "timestamp": "2025-12-27T16:06:20",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "7311e707-91b9-43ab-b9a9-adaf183a5b5a": {
+    "timestamp": "2025-12-27T15:00:16",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e7bcec69-64f9-4ba7-8dda-a577f3517060": {
+    "timestamp": "2025-12-27T08:31:21",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "03729072-0283-4980-9a7c-fa1fefbdfa6c": {
+    "timestamp": "2025-12-27T10:53:13",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "dec837f3-bb27-4f21-9d1a-fe2be6fcb8cf": {
+    "timestamp": "2025-12-27T15:25:15",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "06a4d9c1-bd8a-42c4-b9d4-19c40f5e869c": {
+    "timestamp": "2025-12-27T08:16:44",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "39a724cc-59ed-47b3-98b3-2efa3c3115a9": {
+    "timestamp": "2025-12-27T11:40:01",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "99b5131f-6095-4989-9d12-af00a846abad": {
+    "timestamp": "2025-12-27T11:33:21",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b4585152-e337-48d1-baee-f2f0351b52ae": {
+    "timestamp": "2025-12-27T08:33:29",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "43ba8fb7-5f0f-4394-aec2-3a0a1f6c61bb": {
+    "timestamp": "2025-12-27T10:58:30",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d7f44bb2-12f3-4892-abbc-4340012a66a2": {
+    "timestamp": "2025-12-27T09:35:49",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b65000da-832f-467f-8954-5231db4ebacd": {
+    "timestamp": "2025-12-29T10:01:04",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5a866003-6506-4a3e-a074-0e463c83bebc": {
+    "timestamp": "2025-12-29T10:08:39",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9cac464f-c952-45b6-b51a-84f874ecf954": {
+    "timestamp": "2025-12-29T10:50:54",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "6b6a0c27-2d66-4ab4-aa49-d0cb12f07f32": {
+    "timestamp": "2025-12-29T10:53:06",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3db5daca-1296-4c1f-9847-174b1a74b9a9": {
+    "timestamp": "2025-12-29T10:30:51",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8f634332-b5da-4bfb-b830-347ccb43f032": {
+    "timestamp": "2025-12-29T10:49:38",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8e3ba750-6e73-4717-8e55-10b4aea695ad": {
+    "timestamp": "2025-12-29T10:04:09",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9d610f91-171b-4af7-8510-c7cfd5354be3": {
+    "timestamp": "2025-12-29T10:46:50",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "123bad38-7758-4e12-be91-5ea05c325386": {
+    "timestamp": "2025-12-29T10:05:01",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3475e792-926b-48ac-9eee-1ea8fea51d85": {
+    "timestamp": "2025-12-29T10:04:29",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f590b399-e971-4b40-b9a7-3a2c83b8143a": {
+    "timestamp": "2025-12-29T10:26:00",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "68034ea1-ac25-46d2-82f8-03f415d8c66c": {
+    "timestamp": "2025-12-29T10:06:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e6257662-061f-4391-9a0c-453e79e03008": {
+    "timestamp": "2025-12-29T10:29:21",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3555f502-2957-4573-a0ef-e385e82cd0df": {
+    "timestamp": "2025-12-29T10:23:08",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0bca75c4-c642-4cb2-8bd5-cb8aaf6fe3fc": {
+    "timestamp": "2025-12-29T10:49:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "aaea5852-25c0-406a-a6dd-76b6e688cdd8": {
+    "timestamp": "2025-12-02T17:21:20",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0a77cb2d-b5bc-438a-a570-eb5141ed25d6": {
+    "timestamp": "2025-12-02T17:46:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a25acba9-f45c-4d7c-8f20-0bdb8ed5f236": {
+    "timestamp": "2025-12-02T17:56:46",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2a10b7b2-04b9-4bc2-b3a5-98fcd03bbd42": {
+    "timestamp": "2025-12-02T17:06:35",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3c9a5900-b816-43dc-ba9f-12e84f9f2cf8": {
+    "timestamp": "2025-12-02T17:40:02",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "dcece59a-b9de-4a35-9aea-d184a09b8213": {
+    "timestamp": "2025-12-02T17:28:02",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "ef64496a-dcd8-4894-8ad3-5e68cae3c23c": {
+    "timestamp": "2025-12-02T17:59:15",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ea356c54-4064-41c6-9885-2c3bf020fde7": {
+    "timestamp": "2025-12-02T17:24:00",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1220c4da-83fe-47de-96f2-7feb07e0d037": {
+    "timestamp": "2025-12-02T17:10:33",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7d1ea7f0-7a8b-48b5-803c-e535200488ce": {
+    "timestamp": "2025-12-02T17:23:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "8f08dfaf-ecb8-4e0c-bf80-c876bc3ca7fc": {
+    "timestamp": "2025-12-10T11:40:00",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "6c02305c-7097-4f56-98c2-e5b36463ce0c": {
+    "timestamp": "2025-12-10T15:50:06",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c34a9e60-6977-4fb4-a52b-73f56fa8b624": {
+    "timestamp": "2025-12-10T16:30:06",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "ded68fc5-701b-4825-9635-40d0a11f6957": {
+    "timestamp": "2025-12-10T10:16:00",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bf5d75bc-aba2-4773-a467-1a9c0db1bd56": {
+    "timestamp": "2025-12-10T10:40:00",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4d7446cd-71b9-4237-80dd-03220381911d": {
+    "timestamp": "2025-12-10T16:15:08",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8ca63237-999d-4405-8098-4dfb3cf411f1": {
+    "timestamp": "2025-12-10T16:55:08",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "85f3dbb8-3a4a-474e-aa68-311d0fb4c14a": {
+    "timestamp": "2025-12-10T10:07:00",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "0565e5d7-2078-4de2-8483-95d3eed2d005": {
+    "timestamp": "2025-12-10T15:48:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "a73fdf7f-bc87-4f56-8f60-a959d34a9b1d": {
+    "timestamp": "2025-12-10T16:20:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "saida"
+  },
+  "d25e5dd4-1abc-4c8e-ab34-ab5aa01538b3": {
+    "timestamp": "2025-12-10T10:21:28",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "87a9e5e1-44e1-4842-a4a7-a05863eee97f": {
+    "timestamp": "2025-12-10T10:51:28",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7edab297-b4ed-4126-a9d3-186e1a5dbc44": {
+    "timestamp": "2025-12-10T15:11:11",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "411f7791-4212-4613-b837-5caf5aa671bc": {
+    "timestamp": "2025-12-10T15:37:11",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "19f6f3e7-798b-41d3-9c46-155f0e8a2c6f": {
+    "timestamp": "2025-12-10T11:48:09",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d1d952d6-a380-490e-9c27-99f55c985bc6": {
+    "timestamp": "2025-12-10T12:05:09",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e3a9d4cb-0553-4b22-9e3e-4abd12a004cb": {
+    "timestamp": "2025-12-10T17:10:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2a449f2b-fa56-4947-b32d-e9db140e696e": {
+    "timestamp": "2025-12-10T17:30:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e90066ee-f875-4142-b736-a4b4e78139bb": {
+    "timestamp": "2025-12-10T11:21:07",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "55653423-9b25-481f-b9d3-9f927b1478b5": {
+    "timestamp": "2025-12-10T12:01:07",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "074b0ca8-78e8-4066-b13d-56cf7250ce1a": {
+    "timestamp": "2025-12-10T15:09:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "446bb25e-2c36-4dea-a80e-e7076e580118": {
+    "timestamp": "2025-12-10T15:40:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3bfce8db-f577-4403-976a-739d540f6777": {
+    "timestamp": "2025-12-10T10:26:00",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bdc9f62f-d3be-486e-b2dd-e430ef796753": {
+    "timestamp": "2025-12-10T11:00:00",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "de1de22f-8551-4f04-af6f-5159718d2b94": {
+    "timestamp": "2025-12-10T14:12:11",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "769374f7-0913-4340-92a5-dcd01f27784b": {
+    "timestamp": "2025-12-10T14:41:11",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6dbf332c-6f24-4e16-969d-f5bd6c8fe79f": {
+    "timestamp": "2025-12-10T10:24:14",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "66087041-a30e-47e3-a282-c0600d5ee33d": {
+    "timestamp": "2025-12-10T11:00:14",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "e9daa14e-684e-4af9-bb69-3c644b4d3d44": {
+    "timestamp": "2025-12-11T10:43:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "d1935255-f300-43b5-8d56-eb2fc1fd887b": {
+    "timestamp": "2025-12-11T11:13:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "saida"
+  },
+  "62847812-39bc-4767-a4b1-7978f7118f31": {
+    "timestamp": "2025-12-11T15:05:04",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "fe941095-7f35-47e2-839a-d6452e2c3b8c": {
+    "timestamp": "2025-12-11T15:43:04",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f0ff403d-f464-4a99-a3fb-5618e7f62aac": {
+    "timestamp": "2025-12-11T11:30:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "ce967817-065b-4e8a-9a27-b5bdf80eabb6": {
+    "timestamp": "2025-12-11T11:55:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6e2d8477-4388-4b58-9970-72ddf74e2ff9": {
+    "timestamp": "2025-12-11T15:57:25",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "d00408ba-0e1c-41c2-9f97-a795f17f7b60": {
+    "timestamp": "2025-12-11T16:20:25",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "saida"
+  },
+  "cdea8a3f-9591-4afc-b4ba-4060cd44abe9": {
+    "timestamp": "2025-12-11T10:41:49",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9fa104d2-3237-4324-ad18-f15816ee96c7": {
+    "timestamp": "2025-12-11T11:05:49",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "89f85dd2-bdc2-4087-9f6a-024df83c1f11": {
+    "timestamp": "2025-12-11T16:36:08",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "44a8612f-b616-4341-92c4-61f50ce73971": {
+    "timestamp": "2025-12-11T16:56:08",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "64da8a13-79d0-4290-b30a-5579a3aeeff9": {
+    "timestamp": "2025-12-11T10:20:12",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "4b4f7d3d-0625-4d82-ad01-84be35d2727e": {
+    "timestamp": "2025-12-11T10:45:12",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "38baa5d8-cd3b-4e55-b7a7-c5f81e7e794d": {
+    "timestamp": "2025-12-11T14:23:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2c28556a-8d5e-4ab4-9df2-40853f04c3f7": {
+    "timestamp": "2025-12-11T14:51:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2055e6c1-079a-4165-b1f2-ef6976ef10b4": {
+    "timestamp": "2025-12-11T09:30:05",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1dfd3b01-7db8-4382-9981-87413b03d1b5": {
+    "timestamp": "2025-12-11T09:56:05",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f1f6de96-073d-44a0-b7e7-15a447d69c7b": {
+    "timestamp": "2025-12-11T15:28:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c0f541d2-ef9a-441d-be8e-5f70598738d8": {
+    "timestamp": "2025-12-11T15:54:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "d11bfd66-6ee2-42ae-a6ca-53b190a78dda": {
+    "timestamp": "2025-12-11T11:28:39",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "17904dea-c79b-4196-a97e-190e3eb9529c": {
+    "timestamp": "2025-12-11T12:02:39",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "adb30102-c8f8-49b3-81a2-f68fa8426156": {
+    "timestamp": "2025-12-11T15:17:13",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "43484c6e-c26d-41cd-81fe-5eb9acd6cd63": {
+    "timestamp": "2025-12-11T15:44:13",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6098af90-e939-40f0-a6b4-c966db0542aa": {
+    "timestamp": "2025-12-11T08:46:58",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "da7fbb4d-c12e-4b15-bbae-ec0cd972a5d7": {
+    "timestamp": "2025-12-11T09:23:58",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "069377c0-acbf-424c-b957-f07a3e61e602": {
+    "timestamp": "2025-12-11T16:06:02",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "425ec92c-2362-42c8-a257-12dbca068dcb": {
+    "timestamp": "2025-12-11T16:40:02",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "cdcbebbf-c2d3-4162-bf36-7459d43595b7": {
+    "timestamp": "2025-12-11T09:51:55",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "78eaf49c-f5b9-42ca-99cf-a9dcd4c06c21": {
+    "timestamp": "2025-12-11T10:18:55",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4d71c606-ad8c-4afd-a4e9-37124d0f4a23": {
+    "timestamp": "2025-12-11T17:28:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "af29a926-0bd1-470d-8297-387b81db43ea": {
+    "timestamp": "2025-12-11T17:56:24",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "75705a3c-b02f-4f24-9186-5e491eb37157": {
+    "timestamp": "2025-12-11T08:04:59",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b6176110-3c5c-495e-a92f-d8d66389080c": {
+    "timestamp": "2025-12-11T08:44:59",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a0a045e2-4069-4b45-95ad-1cec85f0fbcf": {
+    "timestamp": "2025-12-12T11:16:37",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b7d7da71-3865-4304-bf10-f220fa0adacf": {
+    "timestamp": "2025-12-12T11:37:37",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "48d33b84-39a0-4785-82cf-19ed7347943e": {
+    "timestamp": "2025-12-12T16:45:42",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "36c63d22-5f3a-4ba3-810b-124befb59c4b": {
+    "timestamp": "2025-12-12T17:02:42",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3adf4990-7ee4-4759-a709-f0839bafd72f": {
+    "timestamp": "2025-12-12T08:26:58",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "744c8317-7ac3-4428-aea3-3a13fc02999a": {
+    "timestamp": "2025-12-12T08:58:58",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9961f7bd-54be-46ec-a0d4-434f6da8b32c": {
+    "timestamp": "2025-12-12T16:04:15",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "4d7ca989-4e2d-41b3-81e5-7dadd9691bb8": {
+    "timestamp": "2025-12-12T16:40:15",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "96e8a38c-978d-4cc6-a3e9-be509ae3a24c": {
+    "timestamp": "2025-12-12T10:17:33",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "48617c87-94f8-4ff6-a2ec-a29fda00fcc9": {
+    "timestamp": "2025-12-12T17:47:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9b146404-8c80-41ff-9e4b-8d8339a70110": {
+    "timestamp": "2025-12-12T18:02:28",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9fcf9723-a0a8-42ec-a11f-6292a684532a": {
+    "timestamp": "2025-12-12T09:01:38",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "76e0b11c-c420-46d4-b243-b0f5621f4c9f": {
+    "timestamp": "2025-12-12T09:34:38",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "87e60980-cb58-4e15-8400-8d251c4c3474": {
+    "timestamp": "2025-12-12T17:09:31",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2e4348a1-efa4-4d26-922e-7b0035b25dc3": {
+    "timestamp": "2025-12-12T17:40:31",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "99bd0444-f4ee-4f4f-b42e-e8bbec13a759": {
+    "timestamp": "2025-12-12T10:14:39",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c267a572-fbc3-4d96-b03f-012cd3f1719b": {
+    "timestamp": "2025-12-12T10:40:39",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b0a48b86-3e4b-4c70-8b83-c13f7041ab70": {
+    "timestamp": "2025-12-12T17:36:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2b5db215-9778-4315-b57c-3621c7554301": {
+    "timestamp": "2025-12-12T18:13:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b9596643-d8a4-4b25-aad8-acce80963d3d": {
+    "timestamp": "2025-12-12T11:27:53",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d3b12346-40e7-4678-82b4-1d6f4f05b69d": {
+    "timestamp": "2025-12-12T12:05:53",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "631c4664-03a1-4619-be2c-bbea56fc9be3": {
+    "timestamp": "2025-12-12T17:38:58",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d1a771b1-2e32-441a-a638-40f12b05259a": {
+    "timestamp": "2025-12-12T18:02:58",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "252d11a7-a869-46ff-b64b-28bf0a18390f": {
+    "timestamp": "2025-12-12T09:55:49",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b7af693d-6ef8-467d-a4f8-324588e0bd26": {
+    "timestamp": "2025-12-12T10:30:49",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0a431e58-bf7b-4712-9727-bed431e6263a": {
+    "timestamp": "2025-12-12T17:54:20",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c7721862-74f9-4a76-b0ff-43c35a5f08b8": {
+    "timestamp": "2025-12-12T18:22:20",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a3cb4ea9-3d1e-4423-9d08-e61a1d179921": {
+    "timestamp": "2025-12-12T08:12:07",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "bdd9af42-5b84-4851-84b0-f254aaa4c769": {
+    "timestamp": "2025-12-12T08:41:07",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "64e5580c-0cfd-4b98-8588-6a21bc6050fc": {
+    "timestamp": "2025-12-12T16:34:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3206bb45-a040-4643-929f-737f334ecc22": {
+    "timestamp": "2025-12-13T08:48:43",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "87c7acd5-726c-40e7-b001-03427ca7f488": {
+    "timestamp": "2025-12-13T09:20:43",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b67dbfb4-38ea-4a18-a9dd-e5c059b292d7": {
+    "timestamp": "2025-12-13T15:09:42",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f63c5ca8-ec08-46bf-8b2c-46532d844bb3": {
+    "timestamp": "2025-12-13T15:49:42",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f3f98e91-0b12-4a7b-99ea-c63925468f90": {
+    "timestamp": "2025-12-13T10:17:02",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "eafff4b2-a981-46bb-aea1-a3eb2c7f9d6d": {
+    "timestamp": "2025-12-13T10:40:02",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4190cc91-26de-42c8-b17e-1f1be207a38a": {
+    "timestamp": "2025-12-13T17:50:22",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "e3220aa2-fc7b-4123-a748-09d0c4dae1ba": {
+    "timestamp": "2025-12-13T18:07:22",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "2bc90015-59ce-4b64-b5c3-96375637a328": {
+    "timestamp": "2025-12-13T10:45:09",
+    "cartao": "4349F01B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3ff54bab-2600-4db1-93f5-d6900b2a0eb0": {
+    "timestamp": "2025-12-13T17:05:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c3f61423-7812-48ee-9dee-881d24c870dd": {
+    "timestamp": "2025-12-13T17:24:46",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9b36cf60-1620-4ce9-8811-c073a53e63ac": {
+    "timestamp": "2025-12-13T11:46:10",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d0a16231-5aae-425e-907d-14c3e2a41770": {
+    "timestamp": "2025-12-13T12:03:10",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a7d1d956-5c45-47d5-830a-52980a955849": {
+    "timestamp": "2025-12-13T14:22:56",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3832466e-3711-4249-bb60-0ee71eb03aac": {
+    "timestamp": "2025-12-13T14:57:56",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4889742c-ef8d-4cfa-a0d3-e76bb913ffa5": {
+    "timestamp": "2025-12-13T09:58:41",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "87fbae44-4320-465c-b2d8-b2395349fce0": {
+    "timestamp": "2025-12-13T10:32:41",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3bf50679-3cb1-47e5-98d2-c0e0c3f751a9": {
+    "timestamp": "2025-12-13T17:26:07",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "0205a929-5633-43e9-8b02-8b30dc439341": {
+    "timestamp": "2025-12-13T17:45:07",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "56afd7cc-0816-4ba7-953e-0e710b86293f": {
+    "timestamp": "2025-12-13T09:35:04",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "6c50b217-8517-4a78-8ec0-7e841dae69d0": {
+    "timestamp": "2025-12-13T09:56:04",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "44bc32fa-ddb2-42ed-b7dd-cbce8ae11450": {
+    "timestamp": "2025-12-13T14:41:47",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9bffbe09-24f4-45b8-8070-bb5c36a71202": {
+    "timestamp": "2025-12-13T15:01:47",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0f5eb89e-80d7-4c36-83fb-83f230638437": {
+    "timestamp": "2025-12-13T11:48:23",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "3f9dc1a4-b5c0-4490-9452-82f61debb713": {
+    "timestamp": "2025-12-13T12:28:23",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b540f5a9-1a6f-411d-aee6-c77352bbcd87": {
+    "timestamp": "2025-12-13T14:50:35",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a9248fae-1a08-43f7-a63f-be70469e5043": {
+    "timestamp": "2025-12-13T15:16:35",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c96568af-737b-4866-927b-69239e0bfc4d": {
+    "timestamp": "2025-12-13T10:31:21",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "43ac10a5-5b9a-4ec1-999d-a73b2ab76ea3": {
+    "timestamp": "2025-12-13T11:08:21",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "35552949-1728-408f-898e-720b7c1fdc13": {
+    "timestamp": "2025-12-15T10:50:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "entrada"
+  },
+  "f7e7e695-8ead-422d-9047-4cbd997d64fd": {
+    "timestamp": "2025-12-15T11:11:48",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": true,
+    "leitor": "saida"
+  },
+  "e4f2b5d5-ad0d-46c8-a0f6-5bb3c858ee0a": {
+    "timestamp": "2025-12-15T14:31:40",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9af802f0-5caa-4a52-b9ba-cb41770c0de4": {
+    "timestamp": "2025-12-15T14:47:40",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "4bee0e37-7037-4009-8e13-e35639fee314": {
+    "timestamp": "2025-12-15T10:46:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "7c0d454f-37cd-4ffb-b7de-e4fc5f63e46c": {
+    "timestamp": "2025-12-15T11:26:09",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "583abf60-6a81-4256-ad2a-ba5a02d82f48": {
+    "timestamp": "2025-12-15T15:37:33",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5615faa2-afb9-428f-a582-7c6919f02126": {
+    "timestamp": "2025-12-15T16:08:33",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "752e8b9e-c718-4084-8537-390269f7f66a": {
+    "timestamp": "2025-12-15T10:35:56",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8f86f589-0261-4ab6-98da-f59ba5b65dd9": {
+    "timestamp": "2025-12-15T11:14:56",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "1f730668-2213-4828-b752-7e3e24a42f08": {
+    "timestamp": "2025-12-15T16:42:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1d27dc4c-9432-46ec-b264-80f39f98d273": {
+    "timestamp": "2025-12-15T17:17:34",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b5dcc27c-8e3a-4560-b396-4863f3a65743": {
+    "timestamp": "2025-12-15T11:30:08",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b41932da-d0ea-4d1f-8e5e-85b1b72798ee": {
+    "timestamp": "2025-12-15T11:46:08",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "916ebce7-6388-4a6a-9dbf-ee6f3fd296ee": {
+    "timestamp": "2025-12-15T15:04:45",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "c063e459-e1b8-4af4-aa1f-9e7877c57655": {
+    "timestamp": "2025-12-15T15:28:45",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "302ffab8-716c-4f42-b34f-78dbc1328695": {
+    "timestamp": "2025-12-15T10:06:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5de7f371-e2b7-40b7-8d2a-e9bb97916ef3": {
+    "timestamp": "2025-12-15T10:32:53",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "9d567162-fbfb-4bd1-b373-8300b69048e8": {
+    "timestamp": "2025-12-15T14:39:52",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b29b0606-53d7-4b06-a379-14191b479147": {
+    "timestamp": "2025-12-15T15:07:52",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "243fdf77-3fe1-425b-9c8e-f6b436029327": {
+    "timestamp": "2025-12-15T10:32:25",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "5920bd8b-ce10-482a-a605-5ece4dcab476": {
+    "timestamp": "2025-12-15T10:52:25",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "45b6553d-deb7-44b1-bc30-b7cb255a60f4": {
+    "timestamp": "2025-12-15T16:57:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "48d14e2b-09ee-41a0-b8b5-d25d0c6c8196": {
+    "timestamp": "2025-12-15T17:21:54",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "70e19ed3-8d4e-4812-b215-90bc9fb334c6": {
+    "timestamp": "2025-12-15T10:44:21",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "82ecb433-831d-4072-b080-e0a725a35a8a": {
+    "timestamp": "2025-12-15T11:04:21",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c555b595-dfae-4990-8b27-40e752703554": {
+    "timestamp": "2025-12-15T14:40:34",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b55c9929-7317-47df-b466-2aff3bb08d30": {
+    "timestamp": "2025-11-27T08:12:10",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b1f152d2-4ef1-4a2b-b0a7-d6cc00f942b6": {
+    "timestamp": "2025-11-27T08:34:55",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a27fce4d-00d8-4f1b-a2c2-a28c76c39163": {
+    "timestamp": "2025-11-27T08:41:22",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "2216f949-4b6a-4c8c-821e-5e6db36b2d87": {
+    "timestamp": "2025-11-27T09:05:40",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "fbb3f553-be1b-41d1-b183-d9ab1ee50902": {
+    "timestamp": "2025-11-27T12:05:11",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "8c75cb55-52f5-4729-9546-b249a5efee45": {
+    "timestamp": "2025-11-27T12:39:15",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "aae3821f-e8e8-4dbc-8b14-b303649b7a7f": {
+    "timestamp": "2025-11-27T16:09:44",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "1f5e134f-36bb-4c66-9544-c23e1bc2cb86": {
+    "timestamp": "2025-11-27T16:45:28",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "64cf05d3-26e8-4e25-a541-d58dc6ab4a49": {
+    "timestamp": "2025-11-28T08:18:33",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "cf487cbf-adfe-4824-b90d-9e8c03340a01": {
+    "timestamp": "2025-11-28T08:53:50",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "cbcc4b16-6aa1-4556-a87c-dc61791b2708": {
+    "timestamp": "2025-11-28T09:11:05",
+    "cartao": "43 49 F0 1B",
+    "acesso_permitido": false,
+    "acesso_negado": true,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "18e66a59-1481-4e79-925e-6dd8b81a2637": {
+    "timestamp": "2025-11-28T12:10:22",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "77db0c4a-d479-4cab-a017-ee4d746345d2": {
+    "timestamp": "2025-11-28T12:41:17",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5efbe830-a510-41ba-a2d9-3e8ec1f7a715": {
+    "timestamp": "2025-12-01T08:06:19",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "f480629b-a320-4f11-af2e-a03c44ef63e9": {
+    "timestamp": "2025-12-01T08:29:55",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "b5df0d96-9d47-4b2c-a74f-a6fc056441ab": {
+    "timestamp": "2025-12-01T12:14:30",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "9e7bb1f6-73d2-4e6f-943f-d5d1778fd6bb": {
+    "timestamp": "2025-12-01T12:45:58",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7318f291-d6f4-4c2e-b499-87cd63a7b531": {
+    "timestamp": "2025-12-02T08:22:10",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "a251cb64-4174-4df8-953f-f98bdafc8707": {
+    "timestamp": "2025-12-02T08:50:02",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c6d4b118-0a6d-47fb-9ce9-0bb495a237e3": {
+    "timestamp": "2025-12-02T12:03:25",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b1f54165-a479-4639-95f9-968d7094b275": {
+    "timestamp": "2025-12-02T12:39:11",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "48404971-214f-4ded-9b91-9f3ce4f2da17": {
+    "timestamp": "2025-12-03T08:16:42",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "80b00a93-b877-4c4a-ad0c-798a63f0ec23": {
+    "timestamp": "2025-12-03T08:47:59",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "6fbc072a-3c0f-41b0-a4ea-51fe6742a308": {
+    "timestamp": "2025-12-03T12:22:14",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "b7c3845b-60f7-4425-8157-4d385e71d73e": {
+    "timestamp": "2025-12-03T12:50:48",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f1212ceb-e66d-40cc-b561-583f015d06e0": {
+    "timestamp": "2025-12-04T08:11:01",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "0b15fee5-486a-4941-8f71-38e12d6702db": {
+    "timestamp": "2025-12-04T08:42:37",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a2c63979-9ca0-445d-8882-09d240a4943a": {
+    "timestamp": "2025-12-04T12:02:19",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "243e91b0-7cb5-4d93-a7f1-dc4303a255db": {
+    "timestamp": "2025-12-04T12:33:50",
+    "cartao": "C2 51 49 20",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "ed19288c-b92c-4701-9e12-753770bc686b": {
+    "timestamp": "2025-12-05T08:19:55",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "53fe234b-47bf-4971-b93e-40ee18711734": {
+    "timestamp": "2025-12-05T08:52:14",
+    "cartao": "92 F5 D4 21",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "0c39ab6e-3ded-45c3-898f-9bfade97d6cf": {
+    "timestamp": "2025-12-05T12:06:33",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "d59edfdf-7dde-4214-b3cb-059b4cf47493": {
+    "timestamp": "2025-12-05T12:44:20",
+    "cartao": "73 C0 F7 1B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "98388f83-c25f-4de2-9ee8-028be459a73c": {
+    "timestamp": "2025-12-29T12:52:24",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "261e2f43-570f-429e-8b55-b1ce2b39c2e8": {
+    "timestamp": "2025-12-29T10:31:16",
+    "cartao": "4349F01B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "6618c2fe-b149-460e-8e1a-7499a8cf7d72": {
+    "timestamp": "2025-12-29T11:42:45",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "85e258c8-b19b-433d-8b1e-246f672db489": {
+    "timestamp": "2025-12-29T12:41:29",
+    "cartao": "73C0F71B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "entrada"
+  },
+  "352119b2-8792-4010-88f7-8098ac2c08d4": {
+    "timestamp": "2025-12-29T17:35:46",
+    "cartao": "4349F01B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f92301a8-cf56-428f-9763-19d3949b508a": {
+    "timestamp": "2025-12-29T12:44:59",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "f700d98c-4525-4547-a57f-026719d512c9": {
+    "timestamp": "2025-12-29T19:59:17",
+    "cartao": "4349F01B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "7a1547ae-d70a-46d1-a560-e7e1d4fb64c9": {
+    "timestamp": "2025-12-29T08:26:36",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "05d7b23b-93d7-4319-8fbb-6b7a1c332e25": {
+    "timestamp": "2025-12-29T08:30:41",
+    "cartao": "4349F01B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "a3abd30c-8b1e-434d-9f8a-1d2de089163d": {
+    "timestamp": "2025-12-29T16:24:22",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "5bf4c020-f01f-40d7-92dd-f0807a93df9e": {
+    "timestamp": "2025-12-29T08:59:22",
+    "cartao": "92F5D421",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "c45c6467-ca1a-43d4-af54-3647c59f6385": {
+    "timestamp": "2025-12-29T19:08:13",
+    "cartao": "4349F01B",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  },
+  "3c3c7937-332c-4e2c-9231-998122b621d4": {
+    "timestamp": "2025-12-29T19:24:22",
+    "cartao": "C2514920",
+    "acesso_permitido": true,
+    "acesso_negado": false,
+    "fraudulento": false,
+    "leitor": "saida"
+  }
+}
