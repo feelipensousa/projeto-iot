@@ -1,59 +1,105 @@
-#@title Média Móvel
-
-import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from math import sqrt
+import requests
+import json
+from datetime import timedelta
+import os
 
 def analise_dados():
-    path = "dadosreais.json"
-
-    with open(path) as f:
-        data = json.load(f)
-
     rows = []
-    for k,v in data.items():
-        ts = v.get("timestamp")
-        if ts:
-            rows.append({"timestamp": pd.to_datetime(ts)})
+
+    # ==========================================================
+    # 1. CARREGAR HISTÓRICO LOCAL (dadosreais.json)
+    arquivo_local = "dadosreais.json"
+    
+    if os.path.exists(arquivo_local):
+        try:
+            with open(arquivo_local, "r") as f:
+                data_local = json.load(f)
+            
+            for k, v in data_local.items():
+                ts = v.get("timestamp")
+                if ts:
+                    rows.append({"timestamp": pd.to_datetime(ts), "origem": "Histórico"})
+            print(f"Carregados {len(data_local)} registros do histórico local.")
+        except Exception as e:
+            print(f"Erro ao ler JSON local: {e}")
+    else:
+        print("Arquivo 'dadosreais.json' não encontrado. Usando apenas Firebase.")
+
+    # ==========================================================
+    # 2. CARREGAR DADOS EM TEMPO REAL (Firebase)
+    URL = "https://controle-de-acesso-iot-default-rtdb.firebaseio.com/eventos.json"
+    
+    try:
+        response = requests.get(URL)
+        if response.status_code == 200 and response.json():
+            data_cloud = response.json()
+            count_cloud = 0
+            for k, v in data_cloud.items():
+                ts = v.get("timestamp")
+                if ts:
+                    rows.append({"timestamp": pd.to_datetime(ts), "origem": "Tempo Real"})
+                    count_cloud += 1
+            print(f"Carregados {count_cloud} registros do Firebase.")
+    except Exception as e:
+        print(f"Erro ao baixar dados do Firebase: {e}")
+
+    # ==========================================================
+    # 3. LIMPEZA
+    if not rows:
+        print("Nenhum dado disponível (nem local, nem nuvem).")
+        return
 
     df = pd.DataFrame(rows)
+    df = df.drop_duplicates(subset=["timestamp"])
+    
     df["date"] = df["timestamp"].dt.date
 
     daily = df.groupby("date").size().reset_index(name="acessos")
     daily = daily.sort_values("date").reset_index(drop=True)
 
-    # janela da média móvel
+    # ==========================================================
+    # 4. APLICAÇÃO DA MÉDIA MÓVEL E PREDIÇÃO
     window = 4
-    daily["ma"] = daily["acessos"].rolling(window).mean()
+    daily["ma"] = daily["acessos"].rolling(window).mean().fillna(0)
 
-    target_day = pd.to_datetime("2025-12-29").date()
+    # --- LÓGICA DE VALIDAÇÃO (Performance no último dia real) ---
+    if len(daily) > window:
+        idx_validacao = daily.index[-1]
+        real_validacao = int(daily.loc[idx_validacao, "acessos"])
+        pred_validacao = daily.loc[idx_validacao-window:idx_validacao-1, "acessos"].mean()
+        
+        mae = abs(real_validacao - pred_validacao)
+        rmse = sqrt((real_validacao - pred_validacao)**2)
+        accuracy = (1 - mae / real_validacao) if real_validacao != 0 else 0
+        if accuracy < 0: accuracy = 0
 
-    idx = daily.index[daily["date"] == target_day][0]
+        print("\n--- PERFORMANCE (Validação Último Dia) ---")
+        print(f"Data: {daily.iloc[-1]['date']}")
+        print(f"Real: {real_validacao} | Estimado: {pred_validacao:.2f}")
+        print(f"Acurácia: {accuracy:.2%}")
 
-    # previsão = média dos últimos k dias
-    pred = daily.loc[idx-window:idx-1, "acessos"].mean()
+    # --- LÓGICA DE PREVISÃO FUTURA ---
+    pred_futura = daily["acessos"].tail(window).mean()
+    ultima_data = daily.iloc[-1]["date"]
+    data_futura = ultima_data + timedelta(days=1)
 
-    real = int(daily.loc[idx, "acessos"])
+    print(f"\nPREVISÃO PARA {data_futura}: {int(pred_futura)} acessos esperados.")
 
-    mae = abs(real - pred)
-    rmse = sqrt((real - pred)**2)
-    accuracy = 1 - mae / real if real != 0 else 0
-    precision = 1 - mae / (abs(pred) + abs(real))
-
-    print("Predição:", pred)
-    print("Real:", real)
-    print("MAE:", mae)
-    print("RMSE:", rmse)
-    print("Acurácia:", accuracy)
-    print("Precisão:", precision)
-
-    plt.figure()
-    plt.plot(daily["date"], daily["acessos"], marker="o", label="Real")
-    plt.plot(daily["date"], daily["ma"], label=f"Média móvel ({window})")
-    plt.scatter([pd.to_datetime(target_day)], [pred], label="Previsão 29/12")
-    plt.title("Previsão com Média Móvel")
+    # ==========================================================
+    # 5. PLOTAGEM
+    plt.plot(daily["date"], daily["acessos"], marker="o", label="Histórico Unificado", color='#1f77b4')
+    plt.plot(daily["date"], daily["ma"], linestyle='--', label=f"Tendência ({window}d)", color='#ff7f0e')
+    
+    # Ponto da Previsão Futura
+    plt.scatter([pd.to_datetime(data_futura)], [pred_futura], color='red', s=120, zorder=5, label=f"Prev: {data_futura}")
+    
+    plt.title(f"Análise de Demanda (Tempo Real)\nPrevisão {data_futura}: {int(pred_futura)} pessoas")
     plt.xlabel("Data")
     plt.ylabel("Acessos")
+    plt.grid(True, alpha=0.3)
     plt.legend()
+    plt.xticks(rotation=45)
